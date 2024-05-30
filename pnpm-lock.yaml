@@ -153,8 +153,8 @@ importers:
         specifier: workspace:*
         version: link:../vm
       jest-mock:
-        specifier: 29.5.0
-        version: 29.5.0
+        specifier: 29.7.0
+        version: 29.7.0
       jest-util:
         specifier: 29.7.0
         version: 29.7.0
@@ -1363,7 +1363,7 @@ packages:
       '@jest/fake-timers': 29.5.0
       '@jest/types': 29.5.0
       '@types/node': 14.18.54
-      jest-mock: 29.5.0
+      jest-mock: 29.7.0
     dev: false
 
   /@jest/environment@29.7.0:
@@ -1398,7 +1398,7 @@ packages:
       '@sinonjs/fake-timers': 10.0.2
       '@types/node': 14.18.54
       jest-message-util: 29.5.0
-      jest-mock: 29.5.0
+      jest-mock: 29.7.0
       jest-util: 29.7.0
     dev: false
 
@@ -5090,15 +5090,6 @@ packages:
       pretty-format: 29.7.0
       slash: 3.0.0
       stack-utils: 2.0.6
-
-  /jest-mock@29.5.0:
-    resolution: {integrity: sha512-GqOzvdWDE4fAV2bWQLQCkujxYWL7RxjCnj71b5VhDAGOevB3qj3Ovg26A5NI84ZpODxyzaozXLOh2NCgkbvyaw==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      '@jest/types': 29.5.0
-      '@types/node': 14.18.54
-      jest-util: 29.7.0
-    dev: false
 
   /jest-mock@29.7.0:
     resolution: {integrity: sha512-ITOMZn+UkYS4ZFh83xYAOzWStloNzJFO2s8DWrE4lhtGD+AorgnbkiKERe4wQVBydIGPx059g6riW5Btp6Llnw==}
